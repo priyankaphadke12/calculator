@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "DS-Digital Normal";
+    font-style: normal;
+    font-weight: normal;
+    src: local("DS-Digital Normal"), url("DS-DIGI.woff") format("woff");
+}
+
+.calculator-body {
+    height: 300px;
+    width: 250px;
+    background-color: #b30047;
+    margin: 20px auto;
+    border-radius: 15px;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.screen {
+    background-color: #a1af77;
+    text-align: right;
+    width: 220px;
+    display: block;
+    margin: 0 auto;
+    font-size: 25px;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+    font-family: "DS-Digital Normal";
+}
+
+.buttons-container {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    width: 50px;
+    text-align: center;
+    padding: 2px 0;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: white;
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px 0 white;
+    transition: 0.5s;
+}
+
+.btn-equals {
+    background-color: #ff0000;
+    height: 70px;
+    color: white;
+    border: none;
+}
